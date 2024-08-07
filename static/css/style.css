@@ -1,0 +1,135 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #333;
+    
+
+}
+/* 
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* Container Styles */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+h1{
+    color: white;
+}
+h2 {
+    color: #ff416c;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    text-align: left;
+    color: #ff4b2b;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #ff416c;
+    background-color: #fff;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff416c;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff4b2b;
+    transform: scale(1.05);
+}
+
+input[type="submit"]:active {
+    background-color: #e03e6c;
+}
+
+/* Error and Loading Styles */
+.error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.loading {
+    display: none;
+    color: #ff416c;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.loading.active {
+    display: block;
+}
+
+/* Additional Styling */
+.header {
+    background-color: rgb(238, 46, 123);
+    padding: 5px 20px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0,0.1);
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px 10px;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
